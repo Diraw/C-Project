@@ -20,7 +20,7 @@ int main()
     int h = t / 60;
     int m = t % 60;
 
-    cout << setfill('0') << setw(2) << h << ":" << setfill('0') << setw(2) << m << endl;
+    cout << setfill('0') << setw(2) << h << ":" << setw(2) << m << endl;
 
     return 0;
 }
